@@ -74,6 +74,8 @@ h4{
     font-size: 15px;
     margin: 0;
 }
+/* fin de general */
+/* estilos para comics home y tienda */
 .portada{
     height: 300px;
 }
@@ -83,15 +85,7 @@ h4{
     flex-wrap: wrap;
     margin: 20px 20px;
 }
-/* fin del general */
-/* las clases carta y portada aplican tambien a la tienda */
-/* inicio de contacto  */
-.texto-contacto{
-    color: white;
-    font-size: 25px;
-    margin: 0 auto;
-    text-decoration: none;
-}
+/* estilos para los formularios */
 form p label{
     color: white;
     font-size: 18px;
@@ -99,6 +93,14 @@ form p label{
 }
 .formulario{
     margin: 0 auto;
+    height: 700px;
+}
+/* inicio de contacto  */
+.texto-contacto{
+    color: white;
+    font-size: 25px;
+    margin: 0 auto;
+    text-decoration: none;
 }
 .formulario form p textarea{
     resize: none;
@@ -116,3 +118,20 @@ form p label{
     background-color: black;
 }
 /* fin de contacto */
+/* inicio de cuenta  */
+.boton-login, .boton-register{
+    width: 220px;
+    height: 60px;
+    cursor: pointer;
+}
+.boton-login{
+    background-color: rgb(112, 0, 0);
+    color: white;
+}
+.boton-register{
+    background-color: grey;
+    color: white;
+}
+.boton-login:hover, .boton-register:hover{
+    opacity: 0.7;
+}
